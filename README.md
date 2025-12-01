@@ -29,13 +29,8 @@ This repository contains the full data analysis workflow, including data cleanin
 
 ## 📂 Repository Structure
 * `app.py`: The main source code for the Streamlit dashboard.
-* `proj_Dataset.ipynb`: Jupyter Notebook containing data cleaning and EDA steps.
-* `clean_data.csv`: The processed dataset used for the dashboard.
 * `which_sport_is_best.csv`: The original raw dataset.
 * `requirements.txt`: List of Python libraries required to run the project.
-* `Project_Report.pdf`: Comprehensive report of the findings.
-* `Presentation.pptx`: Summary presentation slides.
-
 ---
 
 ## 💡 Key Insights
@@ -43,29 +38,6 @@ Based on the data analysis, the following conclusions were drawn:
 1.  **Agility > Strength:** There is a stronger positive correlation between **Agility/Speed** and Popularity compared to pure Strength.
 2.  **Entertainment Value:** High-difficulty sports are not necessarily the most popular; audiences prefer fast-paced action.
 3.  **Skill Clustering:** Sports cluster logically by attributes (e.g., Combat sports share high Durability and Nerve scores).
-
----
-
-## 🛠️ How to Run Locally
-
-To run this dashboard on your own machine, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/Sports-Analytics-Dashboard.git](https://github.com/YOUR_USERNAME/Sports-Analytics-Dashboard.git)
-    ```
-2.  **Navigate to the project folder:**
-    ```bash
-    cd Sports-Analytics-Dashboard
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Run the app:**
-    ```bash
-    streamlit run app.py
-    ```
 
 ---
 
